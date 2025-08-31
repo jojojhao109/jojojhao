@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>圖片測試</title>
+</head>
+<body>
+    <h1>圖片測試</h1>
+    
+    <h2>測試 1: 個人照片 (PNG)</h2>
+    <img src="images/R0000079_layer.png" alt="個人照片" style="width: 200px; height: 200px; border: 2px solid red;" />
+    
+    <h2>測試 2: Email 圖示 (SVG)</h2>
+    <img src="images/email_icon.svg" alt="Email 圖示" style="width: 50px; height: 50px; border: 2px solid blue;" />
+    
+    <h2>測試 3: 檢查檔案是否存在</h2>
+    <p>個人照片: images/R0000079_layer.png (127KB)</p>
+    <p>Email 圖示: images/email_icon.svg (628B)</p>
+    
+    <script>
+        // 檢查圖片是否載入成功
+        const img = document.querySelector('img');
+        img.onload = function() {
+            console.log('圖片載入成功！');
+        };
+        img.onerror = function() {
+            console.log('圖片載入失敗！');
+        };
+    </script>
+</body>
+</html>
