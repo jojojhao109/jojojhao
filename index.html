@@ -19,6 +19,14 @@
         .text-style-body {
             @apply text-brown text-base font-normal font-['Noto_Sans_TC'];
         }
+        .text-style-tag {
+            @apply text-light-yellow-background text-2xl font-normal font-['Noto_Sans_TC'];
+            color: #FFFFF7;
+        }
+        .feather-bottom {
+            -webkit-mask: linear-gradient(to bottom, black 0%, black 70%, transparent 100%);
+            mask: linear-gradient(to bottom, black 0%, black 70%, transparent 100%);
+        }
     </style>
     <script>
         tailwind.config = {
@@ -63,7 +71,7 @@
                                     <div id="about" class="flex-1 inline-flex flex-col justify-start items-start gap-6">
                         <div id="name-title" class="self-stretch justify-center text-brown text-5xl font-black font-['Noto_Sans_TC']">JoJo Jhao</div>
                     <div class="w-[950px] flex flex-col justify-start items-start gap-10">
-                        <div class="self-stretch flex flex-col justify-start items-start gap-2">
+                        <div class="self-stretch flex flex-col justify-start items-start gap-4">
                             <div class="px-2.5 py-[5px] bg-brown rounded-[10px] inline-flex justify-center items-center gap-2.5">
                                 <div class="justify-center text-light-yellow-background text-2xl font-black font-['Noto_Sans_TC']">Education</div>
                             </div>
@@ -75,11 +83,11 @@
                                 <div class="self-stretch justify-center text-grey-green text-xl font-black font-['Noto_Sans_TC'] leading-7">Bachelor of  Business Administration (Marjor in Accounting)</div>
                             </div>
                         </div>
-                        <div class="self-stretch flex flex-col justify-start items-start gap-2">
+                        <div class="self-stretch flex flex-col justify-start items-start gap-4">
                             <div class="px-2.5 py-[5px] bg-brown rounded-[10px] inline-flex justify-center items-center gap-2.5">
                                 <div class="justify-center text-light-yellow-background text-2xl font-black font-['Noto_Sans_TC']">Work Experience</div>
                             </div>
-                            <div class="self-stretch flex flex-col justify-center items-start gap-6">
+                            <div class="self-stretch flex flex-col justify-center items-start gap-10">
                                 <div data-jd="true" class="self-stretch flex flex-col justify-start items-start gap-1">
                                     <div class="self-stretch inline-flex justify-between items-center">
                                         <div class="justify-center text-brown text-2xl font-black font-['Noto_Sans_TC']">Tern Bicycles</div>
@@ -161,13 +169,13 @@
                 <div class="self-stretch text-center justify-center text-grey-green text-3xl font-black font-['Noto_Sans_TC']">網頁開發</div>
                 <div class="inline-flex justify-start items-center gap-8">
                     <div class="px-2.5 py-[5px] bg-brown rounded-[10px] flex justify-center items-center gap-2.5">
-                        <div class="justify-center text-light-yellow-background text-2xl font-black font-['Noto_Sans_TC']">UI/UX</div>
+                        <div class="justify-center text-style-tag">UI/UX</div>
                     </div>
                     <div class="px-2.5 py-[5px] bg-brown rounded-[10px] flex justify-center items-center gap-2.5">
-                        <div class="justify-center text-light-yellow-background text-2xl font-black font-['Noto_Sans_TC']">HTML & CSS</div>
+                        <div class="justify-center text-style-tag">HTML & CSS</div>
                     </div>
                     <div class="px-2.5 py-[5px] bg-brown rounded-[10px] flex justify-center items-center gap-2.5">
-                        <div class="justify-center text-light-yellow-background text-2xl font-black font-['Noto_Sans_TC']">Vibe Coding</div>
+                        <div class="justify-center text-style-tag">Vibe Coding</div>
                     </div>
                 </div>
             </div>
@@ -175,16 +183,16 @@
                 <div class="self-stretch text-center justify-center text-grey-green text-3xl font-black font-['Noto_Sans_TC']">使用工具</div>
                 <div class="inline-flex justify-start items-center gap-8">
                     <div class="px-2.5 py-[5px] bg-brown rounded-[10px] flex justify-center items-center gap-2.5">
-                        <div class="justify-center text-light-yellow-background text-2xl font-black font-['Noto_Sans_TC']">Figma</div>
+                        <div class="justify-center text-style-tag">Figma</div>
                     </div>
                     <div class="px-2.5 py-[5px] bg-brown rounded-[10px] flex justify-center items-center gap-2.5">
-                        <div class="justify-center text-light-yellow-background text-2xl font-black font-['Noto_Sans_TC']">Adobe CC</div>
+                        <div class="justify-center text-style-tag">Adobe CC</div>
                     </div>
                     <div class="px-2.5 py-[5px] bg-brown rounded-[10px] flex justify-center items-center gap-2.5">
-                        <div class="justify-center text-light-yellow-background text-2xl font-black font-['Noto_Sans_TC']">Gemini/Claude/ChatGPT/Cursor</div>
+                        <div class="justify-center text-style-tag">Gemini/Claude/ChatGPT/Cursor</div>
                     </div>
                     <div class="px-2.5 py-[5px] bg-brown rounded-[10px] flex justify-center items-center gap-2.5">
-                        <div class="justify-center text-light-yellow-background text-2xl font-black font-['Noto_Sans_TC']">Google Workspace</div>
+                        <div class="justify-center text-style-tag">Google Workspace</div>
                     </div>
                 </div>
             </div>
@@ -192,19 +200,19 @@
                 <div class="self-stretch text-center justify-center text-grey-green text-3xl font-black font-['Noto_Sans_TC']">HR 相關</div>
                 <div class="inline-flex justify-start items-center gap-8">
                     <div class="px-2.5 py-[5px] bg-brown rounded-[10px] flex justify-center items-center gap-2.5">
-                        <div class="justify-center text-light-yellow-background text-2xl font-black font-['Noto_Sans_TC']">招募</div>
+                        <div class="justify-center text-style-tag">招募</div>
                     </div>
                     <div class="px-2.5 py-[5px] bg-brown rounded-[10px] flex justify-center items-center gap-2.5">
-                        <div class="justify-center text-light-yellow-background text-2xl font-black font-['Noto_Sans_TC']">員工關係</div>
+                        <div class="justify-center text-style-tag">員工關係</div>
                     </div>
                     <div class="px-2.5 py-[5px] bg-brown rounded-[10px] flex justify-center items-center gap-2.5">
-                        <div class="justify-center text-light-yellow-background text-2xl font-black font-['Noto_Sans_TC']">到離職</div>
+                        <div class="justify-center text-style-tag">到離職</div>
                     </div>
                     <div class="px-2.5 py-[5px] bg-brown rounded-[10px] flex justify-center items-center gap-2.5">
-                        <div class="justify-center text-light-yellow-background text-2xl font-black font-['Noto_Sans_TC']">勞基法</div>
+                        <div class="justify-center text-style-tag">勞基法</div>
                     </div>
                     <div class="px-2.5 py-[5px] bg-brown rounded-[10px] flex justify-center items-center gap-2.5">
-                        <div class="justify-center text-light-yellow-background text-2xl font-black font-['Noto_Sans_TC']">教育訓練</div>
+                        <div class="justify-center text-style-tag">教育訓練</div>
                     </div>
                 </div>
             </div>
@@ -226,7 +234,7 @@
                 <div class="w-[956px] inline-flex justify-start items-center gap-24">
                     <div class="flex-1 inline-flex flex-col justify-start items-start gap-6">
                         <div class="self-stretch justify-center text-grey-green text-2xl font-black font-['Noto_Sans_TC']">我對於網頁開發的理解？</div>
-                        <div class="self-stretch justify-center text-brown text-base font-normal font-['Noto_Sans_TC']">我沒有做過任何大型的</div>
+                        <div class="self-stretch justify-center text-brown text-base font-normal font-['Noto_Sans_TC']">對我而言，在我開始做一個網頁的時候，我會先想：「使用者來這裡想做什麼？」，並嘗試透過不同的使用目的來測試我的網站能不能滿足他們的需求。或者是參考我自己覺得使用起來很順暢的網頁，看看他們是怎麼做的，有哪些地方放在我自己的網頁裡面。最後再使用 Figma 畫出來，配合 Cursor 來幫我完成我想要的樣子。</div>
                     </div>
                 </div>
             </div>
@@ -234,7 +242,12 @@
                 <div class="w-[956px] inline-flex justify-start items-center gap-24">
                     <div class="flex-1 inline-flex flex-col justify-start items-start gap-6">
                         <div class="self-stretch justify-center text-grey-green text-2xl font-black font-['Noto_Sans_TC']">我做過的專案？</div>
-                        <div class="self-stretch justify-center text-brown text-base font-normal font-['Noto_Sans_TC']">我沒有做過大型的專案，</div>
+                        <div class="self-stretch justify-center text-brown text-base font-normal font-['Noto_Sans_TC']">
+                            <ul class="list-disc pl-5 space-y-2">
+                                <li>Discord 聊天機器人：使用 Genimi API，讀取 Firestore 裡的角色資料及 prompt 設定，並且讓每個區塊都模組化，方便後期維護及新增角色，host 在 Cybrancee，讓機器人永遠都在線上。</li>
+                                <li>SillyTavern 擴充介面美化，修改別人做的擴充介面，融入我自己修改過的 UI 設計。</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -242,7 +255,13 @@
                 <div class="w-[956px] inline-flex justify-start items-center gap-24">
                     <div class="flex-1 inline-flex flex-col justify-start items-start gap-6">
                         <div class="self-stretch justify-center text-grey-green text-2xl font-black font-['Noto_Sans_TC']">我能做什麼？</div>
-                        <div class="self-stretch justify-center text-brown text-base font-normal font-['Noto_Sans_TC']">版加了找否大大城關磁陳少不？檔把鎚，三用是怎是總區中男王找搪岸數龍臺！應這！然位地不總萱嘩，要。地希的硫的清同再要樂議月，金腦的大非？白氣由業於間碌鈺好目神資大，弗下朮枷的麼人不統仟但該椒？提靖到書想</div>
+                        <div class="self-stretch justify-center text-brown text-base font-normal font-['Noto_Sans_TC']">
+                            <ul class="list-disc pl-5 space-y-2">
+                                <li>設計與實作：Figma 進行 UI/UX 設計，並用 HTML 和 Tailwind CSS 將設計稿轉化為靜態網頁；目前仍在學習如何製作動態效果，這部分我可以透過使用 AI 工具來實現。</li>
+                                <li>Adobe CC：我會使用 Illustrator 和 Photoshop，也會使用 Premiere Pro 和 After Effects 製作影片。</li>
+                                <li>快速學習與適應力：我自認學東西很快，只要是我想做的東西，就能夠很快理解其中邏輯，並且嘗試實作。</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -255,24 +274,37 @@
             <div data-show_heading="true" data-show_tag="false" class="w-[1440px] bg-light-yellow-background flex flex-col justify-start items-center gap-2">
                 <div class="w-[956px] inline-flex justify-start items-center gap-24">
                     <div class="flex-1 inline-flex flex-col justify-start items-start gap-6">
-                        <div class="self-stretch justify-center text-grey-green text-2xl font-black font-['Noto_Sans_TC']">為什麼會想做網頁開發？</div>
-                        <div class="self-stretch justify-center text-brown text-style-body">版加了找否大大城關磁陳少不？檔把鎚，三用是怎是總區中男王找搪岸數龍臺！應這！然位地不總萱嘩，要。地希的硫的清同再要樂議月，金腦的大非？白氣由業於間碌鈺好目神資大，弗下朮枷的麼人不統仟但該椒？提靖到書想</div>
+                        <div class="self-stretch justify-center text-grey-green text-2xl font-black font-['Noto_Sans_TC']">前期：UI/UX</div>
+                        <div class="self-stretch justify-center text-brown text-base font-normal font-['Noto_Sans_TC']">
+                            <ul class="list-disc pl-5 space-y-2">
+                                <li>學習如何使用 Drupal 管理公司的網站。</li>
+                                <li>使用 Figma 設計網站介面，並且實作成靜態網頁。</li>
+                                <li>希望能將我所掌握的技能使用在工作上，例如說製作網頁的 icon 或向量圖等。</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
             <div data-show_heading="true" data-show_tag="false" class="w-[1440px] bg-light-yellow-background flex flex-col justify-start items-center gap-2">
                 <div class="w-[956px] inline-flex justify-start items-center gap-24">
                     <div class="flex-1 inline-flex flex-col justify-start items-start gap-6">
-                        <div class="self-stretch justify-center text-grey-green text-2xl font-black font-['Noto_Sans_TC']">我對於網頁開發的理解？</div>
-                        <div class="self-stretch justify-center text-brown text-style-body">版加了找否大大城關磁陳少不？檔把鎚，三用是怎是總區中男王找搪岸數龍臺！應這！然位地不總萱嘩，要。地希的硫的清同再要樂議月，金腦的大非？白氣由業於間碌鈺好目神資大，弗下朮枷的麼人不統仟但該椒？提靖到書想</div>
+                        <div class="self-stretch justify-center text-grey-green text-2xl font-black font-['Noto_Sans_TC']">中期：UI/UX + 前端</div>
+                        <div class="self-stretch justify-center text-brown text-base font-normal font-['Noto_Sans_TC']">
+                            <ul class="list-disc pl-5 space-y-2">
+                                <li>能獨立負責將 Figma 設計稿，轉化為響應式、可以直接上線的網頁。</li>
+                                <li>深入學習 JavaScript、React 或 Vue），讓自己有能力開發更複雜的互動功能。</li>
+                                <li>能開始與後端工程師合作，學習如何串接 API，與前端介面結合。</li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
             <div data-show_heading="true" data-show_tag="false" class="w-[1440px] bg-light-yellow-background flex flex-col justify-start items-center gap-2">
                 <div class="w-[956px] inline-flex justify-start items-center gap-24">
                     <div class="flex-1 inline-flex flex-col justify-start items-start gap-6">
-                        <div class="self-stretch justify-center text-grey-green text-2xl font-black font-['Noto_Sans_TC']">我能做什麼？</div>
-                        <div class="self-stretch justify-center text-brown text-style-body">版加了找否大大城關磁陳少不？檔把鎚，三用是怎是總區中男王找搪岸數龍臺！應這！然位地不總萱嘩，要。地希的硫的清同再要樂議月，金腦的大非？白氣由業於間碌鈺好目神資大，弗下朮枷的麼人不統仟但該椒？提靖到書想</div>
+                        <div class="self-stretch justify-center text-grey-green text-2xl font-black font-['Noto_Sans_TC']">後期：後端</div>
+                        <div class="self-stretch justify-center text-brown text-base font-normal font-['Noto_Sans_TC']">之前做 Discord 機器人時，我就覺得 Python 很有趣，一直很想學，但目前還在學習前端有關的內容，暫時延後 Python 的學習計劃。</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -292,7 +324,7 @@
             </div>
         </div>
     </div>
-    <div class="w-[1440px] py-4 left-0 top-0 fixed bg-light-yellow-25%/75 backdrop-blur-[5px] flex flex-col justify-center items-center gap-2.5 z-50">
+    <div class="w-[1440px] py-4 left-0 top-0 fixed bg-light-yellow-25%/75 backdrop-blur-[10px] flex flex-col justify-center items-center gap-2.5 z-50">
         <div class="w-[1152px] inline-flex justify-between items-center">
             <div class="px-6 py-2.5 flex justify-center items-center gap-2.5 overflow-hidden cursor-pointer hover:text-light-grey transition-colors duration-300" onclick="scrollToSection('name-title')">
                 <div class="text-center justify-center text-brown text-2xl font-bold font-['Noto_Sans_TC']">JoJo Jhao</div>
