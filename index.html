@@ -37,6 +37,7 @@
                         'light-yellow-background': '#FFFFF7',
                         'grey-green': '#7E867E',
                         'light-grey': '#ADADAD',
+                        'light-green': '#EFF4E5',
                     }
                 }
             }
@@ -326,20 +327,20 @@
             </div>
         </div>
     </div>
-    <div class="w-full py-4 left-0 top-0 fixed bg-light-yellow-25%/75 backdrop-blur-[10px] flex flex-col justify-center items-center gap-2.5 z-50">
+    <div class="w-full py-4 left-0 top-0 fixed bg-light-green/75 backdrop-blur-[10px] flex flex-col justify-center items-center gap-2.5 z-50">
         <div class="w-full max-w-6xl px-12 md:px-8 inline-flex justify-between items-center">
             <div class="px-6 py-2.5 flex justify-center items-center gap-2.5 overflow-hidden cursor-pointer hover:text-light-grey transition-colors duration-300" onclick="scrollToSection('name-title')">
                 <div class="text-center justify-center text-brown text-xl md:text-2xl font-bold font-['Noto_Sans_TC']">JoJo Jhao</div>
             </div>
             <div class="hidden md:flex justify-start items-center gap-4">
-                <div data-state="default" data-type="regular" class="px-5 py-4 flex justify-center items-center gap-2.5 cursor-pointer group transition-colors duration-300" onclick="scrollToSection('skills')">
-                    <div class="text-center justify-center text-brown text-base font-bold font-['Noto_Sans_TC'] group-hover:text-light-grey">技能與工具</div>
+                <div data-state="default" data-type="regular" class="px-5 py-4 flex justify-center items-center gap-2.5 cursor-pointer group transition-all duration-300 rounded-lg hover:bg-brown" onclick="scrollToSection('skills')">
+                    <div class="text-center justify-center text-brown text-base font-bold font-['Noto_Sans_TC'] group-hover:text-light-yellow-background">技能與工具</div>
                 </div>
-                <div data-state="default" data-type="regular" class="px-5 py-4 flex justify-center items-center gap-2.5 cursor-pointer group transition-colors duration-300" onclick="scrollToSection('webdev')">
-                    <div class="text-center justify-center text-brown text-base font-bold font-['Noto_Sans_TC'] group-hover:text-light-grey">網頁開發</div>
+                <div data-state="default" data-type="regular" class="px-5 py-4 flex justify-center items-center gap-2.5 cursor-pointer group transition-all duration-300 rounded-lg hover:bg-brown" onclick="scrollToSection('webdev')">
+                    <div class="text-center justify-center text-brown text-base font-bold font-['Noto_Sans_TC'] group-hover:text-light-yellow-background">網頁開發</div>
                 </div>
-                <div data-state="default" data-type="regular" class="px-5 py-4 flex justify-center items-center gap-2.5 cursor-pointer group transition-colors duration-300" onclick="scrollToSection('expectations')">
-                    <div class="text-center justify-center text-brown text-base font-bold font-['Noto_Sans_TC'] group-hover:text-light-grey">期望的工作內容</div>
+                <div data-state="default" data-type="regular" class="px-5 py-4 flex justify-center items-center gap-2.5 cursor-pointer group transition-all duration-300 rounded-lg hover:bg-brown" onclick="scrollToSection('expectations')">
+                    <div class="text-center justify-center text-brown text-base font-bold font-['Noto_Sans_TC'] group-hover:text-light-yellow-background">期望的工作內容</div>
                 </div>
             </div>
             <div class="md:hidden">
@@ -352,14 +353,14 @@
         <!-- Mobile Menu -->
         <div id="mobile-menu" class="hidden md:hidden w-full max-w-6xl px-12 md:px-8">
             <div class="flex flex-col items-center gap-4 pt-4">
-                <div data-state="default" data-type="regular" class="px-5 py-2 flex justify-center items-center gap-2.5 cursor-pointer group transition-colors duration-300" onclick="scrollToSection('skills'); closeMenu();">
-                    <div class="text-center justify-center text-brown text-base font-bold font-['Noto_Sans_TC'] group-hover:text-light-grey">技能與工具</div>
+                <div data-state="default" data-type="regular" class="px-5 py-2 flex justify-center items-center gap-2.5 cursor-pointer group transition-all duration-300 rounded-lg hover:bg-brown" onclick="scrollToSection('skills'); closeMenu();">
+                    <div class="text-center justify-center text-brown text-base font-bold font-['Noto_Sans_TC'] group-hover:text-light-yellow-background">技能與工具</div>
                 </div>
-                <div data-state="default" data-type="regular" class="px-5 py-2 flex justify-center items-center gap-2.5 cursor-pointer group transition-colors duration-300" onclick="scrollToSection('webdev'); closeMenu();">
-                    <div class="text-center justify-center text-brown text-base font-bold font-['Noto_Sans_TC'] group-hover:text-light-grey">網頁開發</div>
+                <div data-state="default" data-type="regular" class="px-5 py-2 flex justify-center items-center gap-2.5 cursor-pointer group transition-all duration-300 rounded-lg hover:bg-brown" onclick="scrollToSection('webdev'); closeMenu();">
+                    <div class="text-center justify-center text-brown text-base font-bold font-['Noto_Sans_TC'] group-hover:text-light-yellow-background">網頁開發</div>
                 </div>
-                <div data-state="default" data-type="regular" class="px-5 py-2 flex justify-center items-center gap-2.5 cursor-pointer group transition-colors duration-300" onclick="scrollToSection('expectations'); closeMenu();">
-                    <div class="text-center justify-center text-brown text-base font-bold font-['Noto_Sans_TC'] group-hover:text-light-grey">期望的工作內容</div>
+                <div data-state="default" data-type="regular" class="px-5 py-2 flex justify-center items-center gap-2.5 cursor-pointer group transition-all duration-300 rounded-lg hover:bg-brown" onclick="scrollToSection('expectations'); closeMenu();">
+                    <div class="text-center justify-center text-brown text-base font-bold font-['Noto_Sans_TC'] group-hover:text-light-yellow-background">期望的工作內容</div>
                 </div>
             </div>
         </div>

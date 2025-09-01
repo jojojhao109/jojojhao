@@ -12,6 +12,7 @@ module.exports = {
         'brown': '#585048',
         'light-yellow-background': '#FFFFF7',
         'grey-green': '#7E867E',
+        'light-grey': '#ADADAD',
         // 額外的顏色系列
         primary: {
           50: '#f0f9ff',
